@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Python HTTP Server",
+      "type": "shell",
+      "command": "python3",
+      "args": ["-m", "http.server", "9999"],
+      "options": {
+        "cwd": "${workspaceFolder}/src"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Starts a Python-HTTP-Server on port 9999"
+    }
+  ]
+}
