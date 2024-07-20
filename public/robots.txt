@@ -3,3 +3,5 @@ Disallow:
 
 # Allow all other pages
 Allow: /
+
+Sitemap: https://www.thisisholti.com/sitemap.xml
