@@ -28,10 +28,9 @@ export default defineConfig({
       }
     }
   ],
-  base: './',
-  root: 'src',
+  base: '/',
   build: {
-    outDir: '../dist',
+    outDir: 'dist',
     minify: 'terser',
     terserOptions: {
       compress: {
