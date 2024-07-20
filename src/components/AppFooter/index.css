@@ -9,7 +9,7 @@
 }
 
 .fibo-footer .footer-top {
-  white-space: nowrap; /* Verhindert Zeilenumbruch innerhalb des Copyrights */
+  white-space: nowrap;
   margin-bottom: 5px;
 }
 
@@ -25,6 +25,12 @@
 
 @media (max-width: 600px) {
   .fibo-footer {
-    font-size: 12px; /* Kleinere Schriftgröße für mobile Geräte */
+    font-size: 12px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-bottom .footer-item {
+    margin: 5px 0;
   }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout, Typography } from 'antd';
+import { GithubOutlined } from '@ant-design/icons';
 import './index.css';
 
 const { Footer } = Layout;
@@ -27,6 +28,15 @@ const AppFooter: React.FC = () => {
         >
           Privacy Policy
         </Typography.Link>
+        <a
+          href="https://github.com/mholthausen/fibo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-item"
+          aria-label="GitHub Repository"
+        >
+          <GithubOutlined style={{ fontSize: '24px' }} />
+        </a>
       </div>
     </Footer>
   );

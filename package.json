@@ -22,6 +22,7 @@
     "url": "https://github.com/mholthausen/fibo.git"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.3.7",
     "antd": "^5.19.3",
     "normalize.css": "^8.0.1",
     "react": "^18.3.1",
