@@ -1,0 +1,15 @@
+.fibo-display {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    text-align: center;
+    word-break: break-word;
+    overflow: hidden;
+  }
+  
+  #fibo-display-number {
+    line-height: 1;
+  }
+  

@@ -1,0 +1,47 @@
+{
+  "name": "fibo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Fibonacci estimation app",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build --emptyOutDir",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "npm run lint"
+  },
+  "author": {
+    "name": "Michael Holthausen",
+    "email": "mh@thisiholti.com",
+    "url": "https://github.com/mholthausen/"
+  },
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mholthausen/fibo.git"
+  },
+  "dependencies": {
+    "antd": "^5.19.3",
+    "normalize.css": "^8.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "compression": "^1.7.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "terser": "^5.31.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}

@@ -1,0 +1,11 @@
+.fibo-button {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+  color: #fbc000;
+  background-color: #20005a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

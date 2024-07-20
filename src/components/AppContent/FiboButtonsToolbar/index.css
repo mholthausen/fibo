@@ -1,0 +1,6 @@
+.fibo-buttons-toolbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #333;
+}

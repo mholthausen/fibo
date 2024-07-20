@@ -3,15 +3,9 @@
 ## Run the app
 
 ```bash
-python3 -m http.server 9999
+npm i && npm run dev
 ```
-
-## Start via VSCode
-
-- Press `Ctrl + Shift + P`
-- Select "Tasks: Run Task"
-- Select "Start Python Server"
 
 ## GitHub
 
-Open this [site](https://mholthausen.github.io/fibo)
+Open this [site](https://www.thisisholti.com)

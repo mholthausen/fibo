@@ -1,0 +1,14 @@
+.terms-of-service {
+  padding: 20px;
+}
+
+.license-text {
+  font-family: 'Courier New', Courier, monospace; /* Monospaced Schriftart */
+  white-space: pre-wrap; /* Beibehaltung von Leerzeichen und Zeilenumbrüchen, mit automatischen Umbrüchen bei langen Zeilen */
+  word-wrap: break-word; /* Umbrüche innerhalb langer Wörter */
+  background-color: #f5f5f5; /* Optionale Hintergrundfarbe für bessere Lesbarkeit */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
