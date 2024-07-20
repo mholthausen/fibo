@@ -28,9 +28,9 @@
     font-size: 12px;
   }
   .footer-bottom {
-    flex-direction: column;
+    flex-direction: row ;
   }
   .footer-bottom .footer-item {
-    margin: 5px 0;
+    margin: 5px;
   }
 }
