@@ -37,7 +37,10 @@ export default defineConfig({
       compress: {
         drop_console: true
       },
-      mangle: true,
+      mangle: true
     }
+  },
+  server: {
+    open: true
   }
 });
