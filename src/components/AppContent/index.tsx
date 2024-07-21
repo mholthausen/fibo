@@ -13,7 +13,7 @@ const AppContent: React.FC = () => {
   };
 
   return (
-    <Content>
+    <Content role='main'>
       <FiboNumberDisplay number={selectedNumber}/>
       <FiboButtonsToolbar count={7} onButtonClick={handleButtonClick}/>
     </Content>

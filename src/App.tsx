@@ -5,6 +5,7 @@ import AppFooter from './components/AppFooter';
 import AppContent from './components/AppContent';
 import TermsOfService from './components/TermsOfService';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import AppHeader from './components/AppHeader';
 
 const App: React.FC = () => {
   const location = useLocation();
@@ -34,6 +35,7 @@ const App: React.FC = () => {
 
   return (
     <Layout className="fibo-layout">
+      <AppHeader />
       <AppContent />
       <AppFooter />
       <Drawer
