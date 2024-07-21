@@ -1,11 +1,22 @@
 import React from 'react';
 import { Layout, Typography } from 'antd';
 import { GithubOutlined } from '@ant-design/icons';
+import { useNavigate } from 'react-router-dom';
 import './index.css';
 
 const { Footer } = Layout;
 
 const AppFooter: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleNavigation = (
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    path: string
+  ) => {
+    event.preventDefault();
+    navigate(path);
+  };
+
   return (
     <Footer className="fibo-footer">
       <div className="footer-top">
@@ -14,20 +25,20 @@ const AppFooter: React.FC = () => {
         </Typography.Text>
       </div>
       <div className="footer-bottom">
-        <Typography.Link
+        <a
           href="/terms-of-service"
-          title="Terms of Service"
           className="footer-item"
+          onClick={event => handleNavigation(event, '/terms-of-service')}
         >
           Terms of Service
-        </Typography.Link>
-        <Typography.Link
+        </a>
+        <a
           href="/privacy-policy"
-          title="Privacy Policy"
           className="footer-item"
+          onClick={event => handleNavigation(event, '/privacy-policy')}
         >
           Privacy Policy
-        </Typography.Link>
+        </a>
         <a
           href="https://github.com/mholthausen/fibo"
           target="_blank"

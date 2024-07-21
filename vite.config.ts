@@ -34,9 +34,14 @@ export default defineConfig({
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true
+        drop_console: true,
+        dead_code: true,
+        unused: true,
+        passes: 3
       },
-      mangle: true
+      output: {
+        comments: false
+      }
     }
   },
   server: {
