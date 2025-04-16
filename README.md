@@ -31,3 +31,5 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 ## License
 
 This project is licensed under the BSD 2-Clause License. See the [LICENSE](LICENSE) file for more details.
+
+<!-- https://www.scalablepath.com/project-management/agile-points-fibonacci-sequence -->
